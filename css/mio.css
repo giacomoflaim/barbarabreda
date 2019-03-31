@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'merivaextra';
+    src: url('meriva-extra.eot');
+    src: url('meriva-extra.eot?#iefix') format('embedded-opentype'),
+         url('meriva-extra.woff2') format('woff2'),
+         url('meriva-extra.woff') format('woff'),
+         url('meriva-extra.ttf') format('truetype'),
+         url('meriva-extra.svg#merivaextra') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+body {
+    height: 100%;
+    width:100%;
+    position: absolute;
+    background-color: white; 
+}
+
+.name{
+    margin-top: 2%;
+}
+
+
+/* navbar */
+
+#basso{
+    bottom: 3%;
+    position: fixed;    
+}
+
+.principale{
+	position: fixed;
+    top: 46%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+/* FONT FONT */
+
+h1{     
+    font-size: 20px;
+	letter-spacing: 2px;
+    color:#303030;
+    margin-bottom: 0px;       
+    text-transform: uppercase;
+}
+
+h2{     
+    font-size: 20px;
+	letter-spacing: 2px;
+    color:#303030;
+    margin-bottom: 0px;       
+    text-transform: uppercase;
+    text-align: right;
+}
+.no-pad{
+     padding-right: 0px;
+}
+
+h3{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    h1, h2{
+        font-size: 15px;
+    }
+    
+    .x-small{
+        margin-top: 20px;
+        padding-right: 15px;
+    }
+    
+    
+    }
+    
+}

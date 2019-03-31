@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'merivaextra';
+    src: url('meriva-extra.eot');
+    src: url('meriva-extra.eot?#iefix') format('embedded-opentype'),
+         url('meriva-extra.woff2') format('woff2'),
+         url('meriva-extra.woff') format('woff'),
+         url('meriva-extra.ttf') format('truetype'),
+         url('meriva-extra.svg#merivaextra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
